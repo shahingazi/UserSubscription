@@ -1,0 +1,15 @@
+D:\Software\VoiceoverIP\VoiceOverIp.DataAccess\bin\Debug\VoiceOverIp.DataAccess.dll.config
+D:\Software\VoiceoverIP\VoiceOverIp.DataAccess\bin\Debug\VoiceOverIp.DataAccess.dll
+D:\Software\VoiceoverIP\VoiceOverIp.DataAccess\bin\Debug\VoiceOverIp.DataAccess.pdb
+D:\Software\VoiceoverIP\VoiceOverIp.DataAccess\bin\Debug\EntityFramework.dll
+D:\Software\VoiceoverIP\VoiceOverIp.DataAccess\bin\Debug\EntityFramework.SqlServer.dll
+D:\Software\VoiceoverIP\VoiceOverIp.DataAccess\bin\Debug\VoiceoverIP.DataAccess.Entities.dll
+D:\Software\VoiceoverIP\VoiceOverIp.DataAccess\bin\Debug\VoiceoverIP.DataAccess.Entities.pdb
+D:\Software\VoiceoverIP\VoiceOverIp.DataAccess\bin\Debug\EntityFramework.xml
+D:\Software\VoiceoverIP\VoiceOverIp.DataAccess\bin\Debug\EntityFramework.SqlServer.xml
+D:\Software\VoiceoverIP\VoiceOverIp.DataAccess\obj\Debug\VoiceOverIp.DataAccess.csprojResolveAssemblyReference.cache
+D:\Software\VoiceoverIP\VoiceOverIp.DataAccess\obj\Debug\VoiceOverIp.DataAccess.Migrations.IntialDb.resources
+D:\Software\VoiceoverIP\VoiceOverIp.DataAccess\obj\Debug\VoiceOverIp.DataAccess.Migrations.AddingEmailUniqueKey.resources
+D:\Software\VoiceoverIP\VoiceOverIp.DataAccess\obj\Debug\VoiceOverIp.DataAccess.csproj.GenerateResource.Cache
+D:\Software\VoiceoverIP\VoiceOverIp.DataAccess\obj\Debug\VoiceOverIp.DataAccess.dll
+D:\Software\VoiceoverIP\VoiceOverIp.DataAccess\obj\Debug\VoiceOverIp.DataAccess.pdb

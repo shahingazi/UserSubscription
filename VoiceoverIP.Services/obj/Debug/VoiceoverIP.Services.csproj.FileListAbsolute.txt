@@ -1,0 +1,16 @@
+D:\Software\VoiceoverIP\VoiceoverIP.Services\bin\VoiceoverIP.Services.dll.config
+D:\Software\VoiceoverIP\VoiceoverIP.Services\bin\VoiceoverIP.Services.dll
+D:\Software\VoiceoverIP\VoiceoverIP.Services\bin\VoiceoverIP.Services.pdb
+D:\Software\VoiceoverIP\VoiceoverIP.Services\bin\AutoMapper.dll
+D:\Software\VoiceoverIP\VoiceoverIP.Services\bin\EntityFramework.dll
+D:\Software\VoiceoverIP\VoiceoverIP.Services\bin\EntityFramework.SqlServer.dll
+D:\Software\VoiceoverIP\VoiceoverIP.Services\bin\VoiceOverIp.DataAccess.dll
+D:\Software\VoiceoverIP\VoiceoverIP.Services\bin\VoiceoverIP.DataAccess.Entities.dll
+D:\Software\VoiceoverIP\VoiceoverIP.Services\bin\VoiceoverIP.DataAccess.Entities.pdb
+D:\Software\VoiceoverIP\VoiceoverIP.Services\bin\VoiceOverIp.DataAccess.pdb
+D:\Software\VoiceoverIP\VoiceoverIP.Services\bin\AutoMapper.xml
+D:\Software\VoiceoverIP\VoiceoverIP.Services\bin\EntityFramework.xml
+D:\Software\VoiceoverIP\VoiceoverIP.Services\bin\EntityFramework.SqlServer.xml
+D:\Software\VoiceoverIP\VoiceoverIP.Services\obj\Debug\VoiceoverIP.Services.csprojResolveAssemblyReference.cache
+D:\Software\VoiceoverIP\VoiceoverIP.Services\obj\Debug\VoiceoverIP.Services.dll
+D:\Software\VoiceoverIP\VoiceoverIP.Services\obj\Debug\VoiceoverIP.Services.pdb

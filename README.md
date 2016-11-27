@@ -1,7 +1,7 @@
 # Requirements
-Implement Web Api for creating user and his phone subscriptions.
-The logic for getting/writing data from/to DB should be in a separate WCF service.
-Database can be MS SQL Server or MS SQL Server Express.
+Implement Web Api for creating user and his phone subscriptions.<br>
+The logic for getting/writing data from/to DB should be in a separate WCF service.<br>
+Database can be MS SQL Server or MS SQL Server Express.<br>
  
 Client will POST/GET/PUT/DELETE data to Web Api, Web Api will connect to WCF service to write/read data from database.
  
@@ -71,11 +71,11 @@ JSON-structure for subscription resource:
 
 # Testing
  
- Download project and open with Visual Studio 2015
+ Download project and open with Visual Studio 2015.
  Open SQL SERVER 2012 express and restore database. 
- Database file located in project directory
- Run the project and you will see all API reference
- Call API by using PostMan tools
+ Database file located in project directory.
+ Run the project and you will see all API reference.
+ Call API by using PostMan tools.
  
  # Using Technology
  

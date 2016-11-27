@@ -1,4 +1,5 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
 using System.Linq;
 using System.Net;
 using System.Net.Http;
@@ -82,7 +83,11 @@ namespace VoiceOverIP.Web.Controllers
 
             using (var client = new SubscriptionServiceClient())
             {
-                client.Create(model);
+                var subscriptionId = client.Create(model);
+                var response = Request.CreateResponse(HttpStatusCode.Created);
+                var uri = Url.Link("SubscriptionApi", new { id = subscriptionId });
+                response.Headers.Location = new Uri(uri);
+                return response;
             }
 
             return Request.CreateResponse(HttpStatusCode.OK);

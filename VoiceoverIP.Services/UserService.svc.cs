@@ -101,6 +101,8 @@ namespace VoiceoverIP.Services
                 SubscriptionId = subscription.SubscriptionId,
                 UserId = subscription.UserId
             };
+            _dataContext.UserSubscriptions.Add(model);
+            _dataContext.SaveChanges();
         }
     }
 }

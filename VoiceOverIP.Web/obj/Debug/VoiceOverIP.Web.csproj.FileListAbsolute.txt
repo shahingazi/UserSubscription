@@ -151,3 +151,4 @@ D:\upload\UserSubscription\VoiceOverIP.Web\bin\Microsoft.Owin.Security.Microsoft
 D:\upload\UserSubscription\VoiceOverIP.Web\bin\System.Web.Http.Owin.xml
 D:\upload\UserSubscription\VoiceOverIP.Web\obj\Debug\VoiceOverIP.Web.dll
 D:\upload\UserSubscription\VoiceOverIP.Web\obj\Debug\VoiceOverIP.Web.pdb
+D:\upload\UserSubscription\VoiceOverIP.Web\obj\Debug\VoiceOverIP.Web.csprojResolveAssemblyReference.cache

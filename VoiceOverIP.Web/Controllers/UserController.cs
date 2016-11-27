@@ -131,7 +131,7 @@ namespace VoiceOverIP.Web.Controllers
                 client.Addsubscription(model);
             }
 
-            return Request.CreateResponse(HttpStatusCode.OK);
+            return Request.CreateResponse(HttpStatusCode.Created);
         }
 
 

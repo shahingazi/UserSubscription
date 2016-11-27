@@ -42,7 +42,7 @@ JSON-structure for user resource:
 "totalPriceIncVatAmount":50.0,  //30 + 20
 "totalcallminutes":70  // 50 + 20
 }
- <br>
+ <br> <br>
 totalPriceIncVatAmount is a summary of the price for all subscriptions<br>
 totalcallminutes is a summary of call minutes for all subscriptions<br>
  
@@ -77,7 +77,7 @@ JSON-structure for subscription resource:<br>
  Run the project and you will see all API reference.<br>
  Call API by using PostMan tools.
  
- # Using Technology
+# Using Technology
  
  ASP.NET Web API<br>
  WCF<br>

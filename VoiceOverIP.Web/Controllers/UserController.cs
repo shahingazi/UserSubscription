@@ -35,6 +35,7 @@ namespace VoiceOverIP.Web.Controllers
                     Subscriptions = x.Subscriptions.Select(z => new Subscription
                     {
                         Id = z.Identifier,
+                        Name = z.Name,
                         Price = z.Price,
                         Priceincvatamount = z.PriceIncVatAmount,
                         Callminutes = z.CallMinutes
@@ -75,6 +76,7 @@ namespace VoiceOverIP.Web.Controllers
                     Subscriptions = result.Subscriptions.Select(z => new Subscription
                     {
                         Id = z.Identifier,
+                        Name = z.Name,
                         Price = z.Price,
                         Priceincvatamount = z.PriceIncVatAmount,
                         Callminutes = z.CallMinutes

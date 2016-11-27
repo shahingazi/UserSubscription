@@ -19,7 +19,7 @@ namespace VoiceoverIP.Services
         User GetById(int userId);
 
         [OperationContract]
-        void Create(User user);
+        int Create(User user);
 
         [OperationContract]
         void Delete(int userId);

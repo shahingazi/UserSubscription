@@ -1,0 +1,16 @@
+D:\upload\UserSubscription\VoiceoverIP.Services\bin\VoiceoverIP.Services.dll.config
+D:\upload\UserSubscription\VoiceoverIP.Services\bin\VoiceoverIP.Services.dll
+D:\upload\UserSubscription\VoiceoverIP.Services\bin\VoiceoverIP.Services.pdb
+D:\upload\UserSubscription\VoiceoverIP.Services\bin\AutoMapper.dll
+D:\upload\UserSubscription\VoiceoverIP.Services\bin\EntityFramework.dll
+D:\upload\UserSubscription\VoiceoverIP.Services\bin\EntityFramework.SqlServer.dll
+D:\upload\UserSubscription\VoiceoverIP.Services\bin\VoiceOverIp.DataAccess.dll
+D:\upload\UserSubscription\VoiceoverIP.Services\bin\VoiceoverIP.DataAccess.Entities.dll
+D:\upload\UserSubscription\VoiceoverIP.Services\bin\VoiceoverIP.DataAccess.Entities.pdb
+D:\upload\UserSubscription\VoiceoverIP.Services\bin\VoiceOverIp.DataAccess.pdb
+D:\upload\UserSubscription\VoiceoverIP.Services\bin\AutoMapper.xml
+D:\upload\UserSubscription\VoiceoverIP.Services\bin\EntityFramework.xml
+D:\upload\UserSubscription\VoiceoverIP.Services\bin\EntityFramework.SqlServer.xml
+D:\upload\UserSubscription\VoiceoverIP.Services\obj\Release\VoiceoverIP.Services.csprojResolveAssemblyReference.cache
+D:\upload\UserSubscription\VoiceoverIP.Services\obj\Release\VoiceoverIP.Services.dll
+D:\upload\UserSubscription\VoiceoverIP.Services\obj\Release\VoiceoverIP.Services.pdb

@@ -2,3 +2,7 @@ D:\Software\VoiceoverIP\VoiceoverIP.DataAccess.Entities\bin\Debug\VoiceoverIP.Da
 D:\Software\VoiceoverIP\VoiceoverIP.DataAccess.Entities\bin\Debug\VoiceoverIP.DataAccess.Entities.pdb
 D:\Software\VoiceoverIP\VoiceoverIP.DataAccess.Entities\obj\Debug\VoiceoverIP.DataAccess.Entities.dll
 D:\Software\VoiceoverIP\VoiceoverIP.DataAccess.Entities\obj\Debug\VoiceoverIP.DataAccess.Entities.pdb
+D:\upload\UserSubscription\VoiceoverIP.DataAccess.Entities\bin\Debug\VoiceoverIP.DataAccess.Entities.dll
+D:\upload\UserSubscription\VoiceoverIP.DataAccess.Entities\bin\Debug\VoiceoverIP.DataAccess.Entities.pdb
+D:\upload\UserSubscription\VoiceoverIP.DataAccess.Entities\obj\Debug\VoiceoverIP.DataAccess.Entities.dll
+D:\upload\UserSubscription\VoiceoverIP.DataAccess.Entities\obj\Debug\VoiceoverIP.DataAccess.Entities.pdb

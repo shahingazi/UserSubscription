@@ -1,1 +1,1 @@
-﻿<%@ ServiceHost Language="C#" Debug="true" Service="VoiceoverIP.Services.SubscriptionServiceService" CodeBehind="SubscriptionService.svc.cs" %>
+﻿<%@ ServiceHost Language="C#" Debug="true" Service="VoiceoverIP.Services.SubscriptionService" CodeBehind="SubscriptionService.svc.cs" %>

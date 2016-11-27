@@ -1,0 +1,4 @@
+D:\upload\UserSubscription\VoiceoverIP.DataAccess.Entities\bin\Release\VoiceoverIP.DataAccess.Entities.dll
+D:\upload\UserSubscription\VoiceoverIP.DataAccess.Entities\bin\Release\VoiceoverIP.DataAccess.Entities.pdb
+D:\upload\UserSubscription\VoiceoverIP.DataAccess.Entities\obj\Release\VoiceoverIP.DataAccess.Entities.dll
+D:\upload\UserSubscription\VoiceoverIP.DataAccess.Entities\obj\Release\VoiceoverIP.DataAccess.Entities.pdb

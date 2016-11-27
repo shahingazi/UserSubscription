@@ -1,25 +1,32 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
 using System.Linq;
 using System.Net;
 using System.Net.Http;
 using System.Web.Http;
 using System.Web.Http.Description;
+using VoiceOverIP.Web.Models;
 using VoiceOverIP.Web.UserService;
-using Subscription = VoiceoverIP.Models.Subscription;
-using User = VoiceoverIP.Models.User;
+using Subscription = VoiceOverIP.Web.Models.Subscription;
+using User = VoiceOverIP.Web.Models.User;
+using UserSubscription = VoiceOverIP.Web.Models.UserSubscription;
 
 
 namespace VoiceOverIP.Web.Controllers
 {
     public class UsersController : ApiController
     {
+        /// <summary>
+        /// Get all users
+        /// </summary>
+        /// <returns></returns>
         [HttpGet]
         [ResponseType(typeof(List<User>))]
         public HttpResponseMessage Get()
         {
             using (var client = new UserServiceClient())
             {
-                var result = client.GetList().Select(x => new VoiceoverIP.Models.User
+                var result = client.GetList().Select(x => new User
                 {
                     Id = x.Id,
                     Firstname = x.FirstName,
@@ -42,8 +49,13 @@ namespace VoiceOverIP.Web.Controllers
             }
         }
 
+        /// <summary>
+        /// Get current user
+        /// </summary>
+        /// <param name="id"></param>
+        /// <returns></returns>
         [HttpGet]
-        [ResponseType(typeof(VoiceoverIP.Models.User))]
+        [ResponseType(typeof(User))]
         public HttpResponseMessage Get(int id)
         {
 
@@ -54,7 +66,7 @@ namespace VoiceOverIP.Web.Controllers
                 if (result == null)
                     return Request.CreateErrorResponse(HttpStatusCode.NotFound, "UserId is not found");
 
-                var user = new VoiceoverIP.Models.User
+                var user = new User
                 {
                     Id = result.Id,
                     Firstname = result.FirstName,
@@ -76,8 +88,13 @@ namespace VoiceOverIP.Web.Controllers
             }
         }
 
+        /// <summary>
+        /// Create a user
+        /// </summary>
+        /// <param name="user"></param>
+        /// <returns></returns>
         [HttpPost]
-        public HttpResponseMessage Post([FromBody]VoiceoverIP.Models.UserSubmission user)
+        public HttpResponseMessage Post([FromBody]UserSubmission user)
         {
             var model = new UserService.User
             {
@@ -88,13 +105,20 @@ namespace VoiceOverIP.Web.Controllers
 
             using (var client = new UserServiceClient())
             {
-                client.Create(model);
+                var userId = client.Create(model);
+                var response = Request.CreateResponse(HttpStatusCode.Created);
+                var uri = Url.Link("UserApi", new { id = userId });
+                response.Headers.Location = new Uri(uri);
+                return response;
             }
-
-            return Request.CreateResponse(HttpStatusCode.OK);
         }
 
-        public HttpResponseMessage Put([FromBody]VoiceoverIP.Models.UserSubscription userSubscription)
+        /// <summary>
+        /// Add subscription to user
+        /// </summary>
+        /// <param name="userSubscription"></param>
+        /// <returns></returns>
+        public HttpResponseMessage Put([FromBody]UserSubscription userSubscription)
         {
             var model = new UserService.UserSubscription
             {
@@ -111,7 +135,11 @@ namespace VoiceOverIP.Web.Controllers
         }
 
 
-
+        /// <summary>
+        /// Delate a user
+        /// </summary>
+        /// <param name="id"></param>
+        /// <returns></returns>
         public HttpResponseMessage Delete(int id)
         {
             using (var client = new UserServiceClient())

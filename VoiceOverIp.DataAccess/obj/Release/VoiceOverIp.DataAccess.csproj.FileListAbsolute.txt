@@ -1,0 +1,15 @@
+D:\upload\UserSubscription\VoiceOverIp.DataAccess\bin\Release\VoiceOverIp.DataAccess.dll.config
+D:\upload\UserSubscription\VoiceOverIp.DataAccess\bin\Release\VoiceOverIp.DataAccess.dll
+D:\upload\UserSubscription\VoiceOverIp.DataAccess\bin\Release\VoiceOverIp.DataAccess.pdb
+D:\upload\UserSubscription\VoiceOverIp.DataAccess\bin\Release\EntityFramework.dll
+D:\upload\UserSubscription\VoiceOverIp.DataAccess\bin\Release\EntityFramework.SqlServer.dll
+D:\upload\UserSubscription\VoiceOverIp.DataAccess\bin\Release\VoiceoverIP.DataAccess.Entities.dll
+D:\upload\UserSubscription\VoiceOverIp.DataAccess\bin\Release\VoiceoverIP.DataAccess.Entities.pdb
+D:\upload\UserSubscription\VoiceOverIp.DataAccess\bin\Release\EntityFramework.xml
+D:\upload\UserSubscription\VoiceOverIp.DataAccess\bin\Release\EntityFramework.SqlServer.xml
+D:\upload\UserSubscription\VoiceOverIp.DataAccess\obj\Release\VoiceOverIp.DataAccess.csprojResolveAssemblyReference.cache
+D:\upload\UserSubscription\VoiceOverIp.DataAccess\obj\Release\VoiceOverIp.DataAccess.Migrations.IntialDb.resources
+D:\upload\UserSubscription\VoiceOverIp.DataAccess\obj\Release\VoiceOverIp.DataAccess.Migrations.AddingEmailUniqueKey.resources
+D:\upload\UserSubscription\VoiceOverIp.DataAccess\obj\Release\VoiceOverIp.DataAccess.csproj.GenerateResource.Cache
+D:\upload\UserSubscription\VoiceOverIp.DataAccess\obj\Release\VoiceOverIp.DataAccess.dll
+D:\upload\UserSubscription\VoiceOverIp.DataAccess\obj\Release\VoiceOverIp.DataAccess.pdb

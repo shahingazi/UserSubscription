@@ -13,7 +13,7 @@ namespace VoiceoverIP.Services
     public interface ISubscriptionService
     {
         [OperationContract]
-        void Create(Subscription subscription);
+        int Create(Subscription subscription);
 
         [OperationContract]
         void Put(Subscription subscription);
@@ -25,6 +25,6 @@ namespace VoiceoverIP.Services
         List<Subscription> Get();
 
         [OperationContract]
-        Subscription Get(int id);
+        Subscription GetById(int id);
     }
 }

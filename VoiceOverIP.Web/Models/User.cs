@@ -1,11 +1,8 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Web;
+﻿using System.Collections.Generic;
 
-namespace VoiceoverIP.Models
+namespace VoiceOverIP.Web.Models
 {
-    public class User: UserSubmission
+    public class User : UserSubmission
     {
         public int Id { get; set; }
         public List<Subscription> Subscriptions { get; set; }
@@ -28,12 +25,19 @@ namespace VoiceoverIP.Models
     }
 
 
-    public class Subscription
+    public class Subscription : SubscriptionSubmission
     {
         public string Id { get; set; }
+    }
+
+
+    public class SubscriptionSubmission
+    {
         public string Name { get; set; }
         public decimal Price { get; set; }
         public decimal Priceincvatamount { get; set; }
         public int Callminutes { get; set; }
     }
+
+
 }

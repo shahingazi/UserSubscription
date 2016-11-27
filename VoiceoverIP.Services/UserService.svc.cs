@@ -73,7 +73,7 @@ namespace VoiceoverIP.Services
 
         }
 
-        public void Create(User user)
+        public int Create(User user)
         {
             var model = new DataAccess.Entities.User
             {
@@ -84,6 +84,7 @@ namespace VoiceoverIP.Services
 
             _dataContext.Users.Add(model);
             _dataContext.SaveChanges();
+            return model.Id;
         }
 
         public void Delete(int userId)

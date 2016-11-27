@@ -341,10 +341,10 @@ namespace VoiceOverIP.Web.UserService {
         System.Threading.Tasks.Task<VoiceOverIP.Web.UserService.User> GetByIdAsync(int userId);
         
         [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IUserService/Create", ReplyAction="http://tempuri.org/IUserService/CreateResponse")]
-        void Create(VoiceOverIP.Web.UserService.User user);
+        int Create(VoiceOverIP.Web.UserService.User user);
         
         [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IUserService/Create", ReplyAction="http://tempuri.org/IUserService/CreateResponse")]
-        System.Threading.Tasks.Task CreateAsync(VoiceOverIP.Web.UserService.User user);
+        System.Threading.Tasks.Task<int> CreateAsync(VoiceOverIP.Web.UserService.User user);
         
         [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IUserService/Delete", ReplyAction="http://tempuri.org/IUserService/DeleteResponse")]
         void Delete(int userId);
@@ -402,11 +402,11 @@ namespace VoiceOverIP.Web.UserService {
             return base.Channel.GetByIdAsync(userId);
         }
         
-        public void Create(VoiceOverIP.Web.UserService.User user) {
-            base.Channel.Create(user);
+        public int Create(VoiceOverIP.Web.UserService.User user) {
+            return base.Channel.Create(user);
         }
         
-        public System.Threading.Tasks.Task CreateAsync(VoiceOverIP.Web.UserService.User user) {
+        public System.Threading.Tasks.Task<int> CreateAsync(VoiceOverIP.Web.UserService.User user) {
             return base.Channel.CreateAsync(user);
         }
         

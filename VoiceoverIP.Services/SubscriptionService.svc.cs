@@ -21,7 +21,7 @@ namespace VoiceoverIP.Services
             _dataContext = new DataContext();
         }
 
-        public void Create(Subscription subscription)
+        public int Create(Subscription subscription)
         {
             var model = new DataAccess.Entities.Subscription
             {
@@ -34,6 +34,7 @@ namespace VoiceoverIP.Services
 
             _dataContext.Subscriptions.Add(model);
             _dataContext.SaveChanges();
+            return model.Id;
         }
 
         private string CreateIdentifier()
@@ -45,6 +46,8 @@ namespace VoiceoverIP.Services
         {
             var model = new DataAccess.Entities.Subscription
             {
+                Id = subscription.Id,
+                Identifier = subscription.Identifier,
                 Name = subscription.Name,
                 Price = subscription.Price,
                 PriceIncVatAmount = subscription.PriceIncVatAmount,
@@ -78,9 +81,12 @@ namespace VoiceoverIP.Services
             return list;
         }
 
-        public Subscription Get(int id)
+        public Subscription GetById(int id)
         {
             var subscription = _dataContext.Subscriptions.FirstOrDefault(x => x.Id == id);
+
+            if (subscription == null)
+                return null;
 
             return new Subscription
             {

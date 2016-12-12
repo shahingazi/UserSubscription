@@ -6,10 +6,8 @@ using System.Net.Http;
 using System.Web.Http;
 using System.Web.Http.Description;
 using VoiceOverIP.Web.SubscriptionService;
-using VoiceOverIP.Web.UserService;
-using Subscription = VoiceOverIP.Web.UserService.Subscription;
 
-namespace VoiceOverIP.Web.Controllers
+namespace VoiceOverIP.Web.Controllers.API
 {
     public class SubscriptionController : ApiController
     {

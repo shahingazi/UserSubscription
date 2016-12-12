@@ -1,0 +1,22 @@
+﻿@model dynamic
+
+@{
+    ViewBag.Title = "title";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>List of User</h2>
+
+<div ng-app="voipApp" ng-controller="userCtrl">
+    <table class="table-bordered">
+        <tr ng-repeat="x in users">
+            <td>{{ x.firstname }}</td>
+            <td>{{ x.lastname }}</td>
+            <td>{{ x.email }}</td>
+        </tr>
+    </table>
+</div>
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular.min.js"></script>
+<script src="~/Scripts/site.js"></script>

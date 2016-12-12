@@ -149,6 +149,6 @@ D:\upload\UserSubscription\VoiceOverIP.Web\bin\Microsoft.Owin.Security.Google.xm
 D:\upload\UserSubscription\VoiceOverIP.Web\bin\Microsoft.Owin.Security.Twitter.xml
 D:\upload\UserSubscription\VoiceOverIP.Web\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
 D:\upload\UserSubscription\VoiceOverIP.Web\bin\System.Web.Http.Owin.xml
+D:\upload\UserSubscription\VoiceOverIP.Web\obj\Debug\VoiceOverIP.Web.csprojResolveAssemblyReference.cache
 D:\upload\UserSubscription\VoiceOverIP.Web\obj\Debug\VoiceOverIP.Web.dll
 D:\upload\UserSubscription\VoiceOverIP.Web\obj\Debug\VoiceOverIP.Web.pdb
-D:\upload\UserSubscription\VoiceOverIP.Web\obj\Debug\VoiceOverIP.Web.csprojResolveAssemblyReference.cache

@@ -12,7 +12,7 @@ using User = VoiceOverIP.Web.Models.User;
 using UserSubscription = VoiceOverIP.Web.Models.UserSubscription;
 
 
-namespace VoiceOverIP.Web.Controllers
+namespace VoiceOverIP.Web.Controllers.API
 {
     public class UsersController : ApiController
     {
@@ -27,24 +27,24 @@ namespace VoiceOverIP.Web.Controllers
             using (var client = new UserServiceClient())
             {
                 var result = client.GetList().Select(x => new User
-                {
-                    Id = x.Id,
-                    Firstname = x.FirstName,
-                    Lastname = x.LastName,
-                    Email = x.Email,
-                    Subscriptions = x.Subscriptions.Select(z => new Subscription
-                    {
-                        Id = z.Identifier,
-                        Name = z.Name,
-                        Price = z.Price,
-                        Priceincvatamount = z.PriceIncVatAmount,
-                        Callminutes = z.CallMinutes
-                    }).ToList(),
+                     {
+                         Id = x.Id,
+                         Firstname = x.FirstName,
+                         Lastname = x.LastName,
+                         Email = x.Email,
+                         Subscriptions = x.Subscriptions.Select(z => new Subscription
+                         {
+                             Id = z.Identifier,
+                             Name = z.Name,
+                             Price = z.Price,
+                             Priceincvatamount = z.PriceIncVatAmount,
+                             Callminutes = z.CallMinutes
+                         }).ToList(),
 
-                    Totalcallminutes = x.Subscriptions.Sum(t => t.CallMinutes),
-                    Totalpriceincvatamount = x.Subscriptions.Sum(t => t.PriceIncVatAmount)
+                         Totalcallminutes = x.Subscriptions.Sum(t => t.CallMinutes),
+                         Totalpriceincvatamount = x.Subscriptions.Sum(t => t.PriceIncVatAmount)
 
-                }).ToList();
+                     }).ToList();
 
                 return Request.CreateResponse(result);
             }
